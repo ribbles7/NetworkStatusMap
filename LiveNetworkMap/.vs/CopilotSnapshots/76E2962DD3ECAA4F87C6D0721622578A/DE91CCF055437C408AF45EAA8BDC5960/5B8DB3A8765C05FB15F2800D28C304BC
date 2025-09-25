@@ -13,29 +13,14 @@ namespace LiveNetworkMap
         // Simple location lookup for demo purposes
         private string GetLocation(double lat, double lon)
         {
-            // Hardcoded locations for all servers in servers.xml
+            // You could use a real geolocation API here
             if (lat == 33.4484 && lon == -112.0740) return "Phoenix, AZ";
-            if (lat == 34.0522 && lon == -118.2437) return "Los Angeles, CA";
-            if (lat == 47.6062 && lon == -122.3321) return "Seattle, WA";
-            if (lat == 39.7392 && lon == -104.9903) return "Denver, CO";
-            if (lat == 32.7767 && lon == -96.7970) return "Dallas, TX";
-            if (lat == 41.8781 && lon == -87.6298) return "Chicago, IL";
-            if (lat == 33.7490 && lon == -84.3880) return "Atlanta, GA";
-            if (lat == 25.7617 && lon == -80.1918) return "Miami, FL";
-            if (lat == 38.9445 && lon == -77.4558) return "Ashburn, VA";
-            if (lat == 40.6413 && lon == -73.7781) return "New York, NY";
-            if (lat == 42.3601 && lon == -71.0589) return "Boston, MA";
+            if (lat == 39.0438 && lon == -77.4874) return "Ashburn, VA";
+            if (lat == 37.3861 && lon == -122.0839) return "Mountain View, CA";
             if (lat == 37.7749 && lon == -122.4194) return "San Francisco, CA";
-            if (lat == 36.1699 && lon == -115.1398) return "Las Vegas, NV";
-            if (lat == 40.7608 && lon == -111.8910) return "Salt Lake City, UT";
-            if (lat == 44.9778 && lon == -93.2650) return "Minneapolis, MN";
-            if (lat == 38.6270 && lon == -90.1994) return "St. Louis, MO";
-            if (lat == 35.2271 && lon == -80.8431) return "Charlotte, NC";
-            if (lat == 36.1627 && lon == -86.7816) return "Nashville, TN";
-            if (lat == 45.5051 && lon == -122.6750) return "Portland, OR";
-            if (lat == 29.7604 && lon == -95.3698) return "Houston, TX";
-            if (lat == 61.2181 && lon == -149.9003) return "Anchorage, AK";
-            if (lat == 21.3069 && lon == -157.8583) return "Honolulu, HI";
+            if (lat == 37.7924 && lon == -122.3964) return "San Francisco, CA";
+            if (lat == 40.7128 && lon == -74.0060) return "New York, NY";
+            if (lat == 34.0522 && lon == -118.2437) return "Los Angeles, CA";
             return "Unknown";
         }
 

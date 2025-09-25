@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\servers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\servers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -11,20 +15,16 @@
       "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\map.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|c:\\users\\rickj\\source\\repos\\networkstatusmap\\livenetworkmap\\livenetworkmap\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BBF4BBF5-FC90-46FF-9002-8B9756B3A18B}|LiveNetworkMap\\LiveNetworkMap.csproj|solutionrelative:livenetworkmap\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\Web.config",
               "RelativeDocumentMoniker": "LiveNetworkMap\\Web.config",
@@ -51,33 +51,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "map.html",
               "DocumentMoniker": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\map.html",
               "RelativeDocumentMoniker": "LiveNetworkMap\\map.html",
               "ToolTip": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\map.html",
               "RelativeToolTip": "LiveNetworkMap\\map.html",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAYwLgAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAYwAYBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-25T04:46:51.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\Default.aspx.cs",
               "RelativeDocumentMoniker": "LiveNetworkMap\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\Default.aspx.cs",
               "RelativeToolTip": "LiveNetworkMap\\Default.aspx.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAADwv2gAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv3QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T04:46:28.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\Default.aspx",
               "RelativeDocumentMoniker": "LiveNetworkMap\\Default.aspx",
@@ -90,20 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "servers.xml",
               "DocumentMoniker": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\servers.xml",
               "RelativeDocumentMoniker": "LiveNetworkMap\\servers.xml",
               "ToolTip": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\servers.xml",
               "RelativeToolTip": "LiveNetworkMap\\servers.xml",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAYwJwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowGcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-09-25T04:45:55.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Server.cs",
               "DocumentMoniker": "C:\\Users\\rickj\\source\\repos\\NetworkStatusMap\\LiveNetworkMap\\LiveNetworkMap\\Server.cs",
               "RelativeDocumentMoniker": "LiveNetworkMap\\Server.cs",

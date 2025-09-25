@@ -157,54 +157,8 @@
                             <p><strong>Ping:</strong> <span class="${pingClass}">${server.PingMs >= 0 ? server.PingMs + ' ms' : 'N/A'}</span></p>
                             <p><strong>Last Checked:</strong> ${server.LastChecked}</p>
                             ${server.Status === 'Offline' ? `<p><strong>Offline Message:</strong> ${server.OfflineMessage}</p>` : ''}
-                            <button class="ping-btn" data-ip="${server.Ip}">Ping this server</button>
-                            <button class="traceroute-btn" data-ip="${server.Ip}" style="margin-left:8px;">Traceroute</button>
-                            <div class="ping-result" style="margin-top:8px;"></div>
-                            <div class="traceroute-result" style="margin-top:8px;"></div>
                         `;
                         marker.bindPopup(popupContent);
-                        marker.on('popupopen', function(e) {
-                            const btn = document.querySelector('.ping-btn');
-                            const resultDiv = document.querySelector('.ping-result');
-                            if (btn) {
-                                btn.onclick = function() {
-                                    btn.disabled = true;
-                                    btn.textContent = 'Pinging...';
-                                    fetch(`Default.aspx?ping=${btn.getAttribute('data-ip')}`)
-                                        .then(r => r.text())
-                                        .then(res => {
-                                            resultDiv.textContent = res;
-                                            btn.disabled = false;
-                                            btn.textContent = 'Ping this server';
-                                        })
-                                        .catch(() => {
-                                            resultDiv.textContent = 'Ping failed.';
-                                            btn.disabled = false;
-                                            btn.textContent = 'Ping this server';
-                                        });
-                                };
-                            }
-                            const tracerouteBtn = document.querySelector('.traceroute-btn');
-                            const tracerouteDiv = document.querySelector('.traceroute-result');
-                            if (tracerouteBtn) {
-                                tracerouteBtn.onclick = function() {
-                                    tracerouteBtn.disabled = true;
-                                    tracerouteBtn.textContent = 'Tracing...';
-                                    fetch(`Default.aspx?traceroute=${tracerouteBtn.getAttribute('data-ip')}`)
-                                        .then(r => r.text())
-                                        .then(res => {
-                                            tracerouteDiv.textContent = res;
-                                            tracerouteBtn.disabled = false;
-                                            tracerouteBtn.textContent = 'Traceroute';
-                                        })
-                                        .catch(() => {
-                                            tracerouteDiv.textContent = 'Traceroute failed.';
-                                            tracerouteBtn.disabled = false;
-                                            tracerouteBtn.textContent = 'Traceroute';
-                                        });
-                                };
-                            }
-                        });
                     });
                     // % Online Metric
                     const total = onlineCount + offlineCount;

@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web.Script.Serialization;
+using System.Xml;
+using System.Net.NetworkInformation;
+
+namespace LiveNetworkMap
+{
+    public partial class Default : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                var serverList = new List<Server>();
+                string xmlFilePath = Server.MapPath("~/servers.xml");
+
+                XmlDocument doc = new XmlDocument();
+                doc.Load(xmlFilePath);
+
+                foreach (XmlNode node in doc.SelectNodes("/servers/server"))
+                {
+                    var ip = node["ip"].InnerText;
+                    string status = "Unknown";
+                    try
+                    {
+                        using (var ping = new Ping())
+                        {
+                            var reply = ping.Send(ip, 1000); // 1 second timeout
+                            status = (reply.Status == IPStatus.Success) ? "Online" : "Offline";
+                        }
+                    }
+                    catch
+                    {
+                        status = "Offline";
+                    }
+
+                    serverList.Add(new Server
+                    {
+                        Name = node["name"].InnerText,
+                        Ip = ip,
+                        Role = node["role"].InnerText,
+                        Lat = Convert.ToDouble(node["lat"].InnerText),
+                        Lon = Convert.ToDouble(node["lon"].InnerText),
+                        Status = status
+                    });
+                }
+
+                var jsonSerializer = new JavaScriptSerializer();
+                string json = jsonSerializer.Serialize(serverList);
+
+                Response.Clear();
+                Response.ContentType = "application/json; charset=utf-8";
+                Response.Write(json);
+                Response.Flush();
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            catch (Exception ex)
+            {
+                Response.Clear();
+                Response.ContentType = "text/plain";
+                Response.Write("Error: " + ex.Message);
+                Response.Flush();
+                Context.ApplicationInstance.CompleteRequest();
+            }
+        }
+    }
+}

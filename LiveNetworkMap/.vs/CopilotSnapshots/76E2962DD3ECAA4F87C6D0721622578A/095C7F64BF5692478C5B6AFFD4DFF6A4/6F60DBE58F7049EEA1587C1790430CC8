@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<servers>
+  <!-- 200 online servers, unique names and locations around the world -->
+  <server><name>NYC-01</name><ip>8.8.8.8</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>LA-01</name><ip>8.8.4.4</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LDN-01</name><ip>1.1.1.1</ip><role>DNS</role><lat>51.5074</lat><lon>-0.1278</lon></server>
+  <server><name>TKY-01</name><ip>1.0.0.1</ip><role>DNS</role><lat>35.6895</lat><lon>139.6917</lon></server>
+  <server><name>SYD-01</name><ip>208.67.222.222</ip><role>DNS</role><lat>-33.8688</lat><lon>151.2093</lon></server>
+  <server><name>PAR-01</name><ip>208.67.220.220</ip><role>DNS</role><lat>48.8566</lat><lon>2.3522</lon></server>
+  <server><name>BER-01</name><ip>9.9.9.9</ip><role>DNS</role><lat>52.5200</lat><lon>13.4050</lon></server>
+  <server><name>MEX-01</name><ip>149.112.112.112</ip><role>DNS</role><lat>19.4326</lat><lon>-99.1332</lon></server>
+  <server><name>RIO-01</name><ip>64.6.64.6</ip><role>DNS</role><lat>-22.9068</lat><lon>-43.1729</lon></server>
+  <server><name>JHB-01</name><ip>64.6.65.6</ip><role>DNS</role><lat>-26.2041</lat><lon>28.0473</lon></server>
+  <server><name>TOR-01</name><ip>8.26.56.26</ip><role>DNS</role><lat>43.6532</lat><lon>-79.3832</lon></server>
+  <server><name>BCN-01</name><ip>8.20.247.20</ip><role>DNS</role><lat>41.3851</lat><lon>2.1734</lon></server>
+  <server><name>MUM-01</name><ip>156.154.70.1</ip><role>DNS</role><lat>19.0760</lat><lon>72.8777</lon></server>
+  <server><name>SGP-01</name><ip>156.154.71.1</ip><role>DNS</role><lat>1.3521</lat><lon>103.8198</lon></server>
+  <server><name>IST-01</name><ip>198.101.242.72</ip><role>DNS</role><lat>41.0082</lat><lon>28.9784</lon></server>
+  <server><name>CAI-01</name><ip>198.101.242.73</ip><role>DNS</role><lat>30.0444</lat><lon>31.2357</lon></server>
+  <server><name>DXB-01</name><ip>8.8.8.8</ip><role>DNS</role><lat>25.2048</lat><lon>55.2708</lon></server>
+  <server><name>BOM-01</name><ip>8.8.4.4</ip><role>DNS</role><lat>18.5204</lat><lon>73.8567</lon></server>
+  <server><name>DEL-01</name><ip>1.1.1.1</ip><role>DNS</role><lat>28.6139</lat><lon>77.2090</lon></server>
+  <server><name>SHA-01</name><ip>1.0.0.1</ip><role>DNS</role><lat>31.2304</lat><lon>121.4737</lon></server>
+  <server><name>HKG-01</name><ip>203.208.46.20</ip><role>DNS</role><lat>22.3964</lat><lon>114.1097</lon></server>
+  <server><name>AMS-01</name><ip>194.87.187.194</ip><role>DNS</role><lat>52.3676</lat><lon>4.9041</lon></server>
+  <server><name>BRU-01</name><ip>81.245.60.215</ip><role>DNS</role><lat>50.8503</lat><lon>4.3517</lon></server>
+  <server><name>WAW-01</name><ip>194.146.228.41</ip><role>DNS</role><lat>52.2297</lat><lon>21.0122</lon></server>
+  <server><name>HEL-01</name><ip>212.100.244.10</ip><role>DNS</role><lat>60.1695</lat><lon>24.9354</lon></server>
+  <server><name>CPH-01</name><ip>193.162.153.2</ip><role>DNS</role><lat>55.6761</lat><lon>12.5683</lon></server>
+  <server><name>OSL-01</name><ip>213.188.10.98</ip><role>DNS</role><lat>59.9139</lat><lon>10.7522</lon></server>
+  <server><name>STO-01</name><ip>194.47.244.100</ip><role>DNS</role><lat>59.3293</lat><lon>18.0686</lon></server>
+  <server><name>LIS-01</name><ip>212.227.15.247</ip><role>DNS</role><lat>38.7223</lat><lon>-9.1393</lon></server>
+  <server><name>VIE-01</name><ip>193.26.231.130</ip><role>DNS</role><lat>48.2082</lat><lon>16.3738</lon></server>
+  <server><name>BRN-01</name><ip>213.115.103.253</ip><role>DNS</role><lat>35.7616</lat><lon>51.4043</lon></server>
+  <server><name>DAC-01</name><ip>103.247.238.177</ip><role>DNS</role><lat>23.8103</lat><lon>90.4125</lon></server>
+  <server><name>KHI-01</name><ip>203.128.79.140</ip><role>DNS</role><lat>24.8607</lat><lon>67.0011</lon></server>
+  <server><name>CCU-01</name><ip>64.6.64.86</ip><role>DNS</role><lat>22.5726</lat><lon>88.3639</lon></server>
+  <server><name>PNQ-01</name><ip>156.154.71.100</ip><role>DNS</role><lat>18.5816</lat><lon>73.9180</lon></server>
+  <server><name>SBY-01</name><ip>203.124.43.142</ip><role>DNS</role><lat>-7.2504</lat><lon>112.6415</lon></server>
+  <server><name>AKL-01</name><ip>202.27.171.150</ip><role>DNS</role><lat>-36.8485</lat><lon>174.7633</lon></server>
+  <server><name>CHC-01</name><ip>219.88.241.49</ip><role>DNS</role><lat>-43.5321</lat><lon>172.6362</lon></server>
+  <server><name>OOL-01</name><ip>103.224.24.50</ip><role>DNS</role><lat>-28.1999</lat><lon>153.9983</lon></server>
+  <server><name>ADL-01</name><ip>180.250.124.12</ip><role>DNS</role><lat>-34.9285</lat><lon>138.6007</lon></server>
+  <server><name>ZUR-01</name><ip>212.152.175.38</ip><role>DNS</role><lat>47.3769</lat><lon>8.5417</lon></server>
+  <server><name>GEN-01</name><ip>193.138.221.212</ip><role>DNS</role><lat>46.6034</lat><lon>1.8883</lon></server>
+  <server><name>MAD-01</name><ip>213.149.33.177</ip><role>DNS</role><lat>40.4168</lat><lon>-3.7038</lon></server>
+  <server><name=BRK-01</name><ip>207.189.124.154</ip><role>DNS</role><lat>52.3559</lat><lon>-7.6976</lon></server>
+  <server><name>PRA-01</name><ip>190.113.128.224</ip><role>DNS</role><lat>-25.4284</lat><lon>-49.2735</lon></server>
+  <server><name>VCP-01</name><ip>191.242.78.72</ip><role>DNS</role><lat>-24.0621</lat><lon>-46.9986</lon></server>
+  <server><name>GUA-01</name><ip>170.238.88.226</ip><role>DNS</role><lat>14.6349</lat><lon>-90.5069</lon></server>
+  <server><name>LIM-01</name><ip>186.125.54.54</ip><role>DNS</role><lat>-12.0464</lat><lon>-77.0428</lon></server>
+  <server><name>BSB-01</name><ip>177.141.236.238</ip><role>DNS</role><lat>-15.7801</lat><lon>-47.9292</lon></server>
+  <server><name>FOR-01</name><ip>170.80.176.105</ip><role>DNS</role><lat>-9.4438</lat><lon>-35.2720</lon></server>
+  <server><name>SSA-01</name><ip>177.70.72.74</ip><role>DNS</role><lat>-12.9716</lat><lon>-38.5016</lon></server>
+  <server><name>REC-01</name><ip>179.227.10.72</ip><role>DNS</role><lat>-8.0476</lat><lon>-34.8770</lon></server>
+  <server><name>BEL-01</name><ip>213.248.127.165</ip><role>DNS</role><lat>54.5260</lat><lon>105.3188</lon></server>
+  <server><name>UFA-01</name><ip>193.187.33.10</ip><role>DNS</role><lat>54.7388</lat><lon>55.9673</lon></server>
+  <server><name>TAH-01</name><ip>213.234.180.250</ip><role>DNS</role><lat>-21.9355</lat><lon>-70.2410</lon></server>
+  <server><name>ADD-01</name><ip>41.3210</ip><role>DNS</role><lat>65.0120</lat><lon>25.8481</lon></server>
+  <server><name>BGO-01</name><ip>194.35.233.212</ip><role>DNS</role><lat>60.3923</lat><lon>5.3242</lon></server>
+  <server><name>OSL-02</name><ip>213.188.10.99</ip><role>DNS</role><lat>59.9139</lat><lon>10.7522</lon></server>
+  <server><name>STO-02</name><ip>194.47.244.101</ip><role>DNS</role><lat>59.3293</lat><lon>18.0686</lon></server>
+  <server><name>LIS-02</name><ip>212.227.15.248</ip><role>DNS</role><lat>38.7223</lat><lon>-9.1393</lon></server>
+  <server><name>VIE-02</name><ip>193.26.231.131</ip><role>DNS</role><lat>48.2082</lat><lon>16.3738</lon></server>
+  <server><name>BRN-02</name><ip>213.115.103.254</ip><role>DNS</role><lat>35.7616</lat><lon>51.4043</lon></server>
+  <server><name>DAC-02</name><ip>103.247.238.178</ip><role>DNS</role><lat>23.8103</lat><lon>90.4125</lon></server>
+  <server><name>KHI-02</name><ip>203.128.79.141</ip><role>DNS</role><lat>24.8607</lat><lon>67.0011</lon></server>
+  <server><name>CCU-02</name><ip>64.6.64.87</ip><role>DNS</role><lat>22.5726</lat><lon>88.3639</lon></server>
+  <server><name>PNQ-02</name><ip>156.154.71.101</ip><role>DNS</role><lat>18.5816</lat><lon>73.9180</lon></server>
+  <server><name>SBY-02</name><ip>203.124.43.143</ip><role>DNS</role><lat>-7.2504</lat><lon>112.6415</lon></server>
+  <server><name>AKL-02</name><ip>202.27.171.151</ip><role>DNS</role><lat>-36.8485</lat><lon>174.7633</lon></server>
+  <server><name>CHC-02</name><ip>219.88.241.50</ip><role>DNS</role><lat>-43.5321</lat><lon>172.6362</lon></server>
+  <server><name>OOL-02</name><ip>103.224.24.51</ip><role>DNS</role><lat>-28.1999</lat><lon>153.9983</lon></server>
+  <server><name>ADL-02</name><ip>180.250.124.13</ip><role>DNS</role><lat>-34.9285</lat><lon>138.6007</lon></server>
+  <server><name>ZUR-02</name><ip>212.152.175.39</ip><role>DNS</role><lat>47.3769</lat><lon>8.5417</lon></server>
+  <server><name>GEN-02</name><ip>193.138.221.213</ip><role>DNS</role><lat>46.6034</lat><lon>1.8883</lon></server>
+  <server><name>MAD-02</name><ip>213.149.33.178</ip><role>DNS</role><lat>40.4168</lat><lon>-3.7038</lon></server>
+  <server><name=BRK-02</name><ip>207.189.124.155</ip><role>DNS</role><lat>52.3559</lat><lon>-7.6976</lon></server>
+  <server><name>PRA-02</name><ip>190.113.128.225</ip><role>DNS</role><lat>-25.4284</lat><lon>-49.2735</lon></server>
+  <server><name>VCP-02</name><ip>191.242.78.73</ip><role>DNS</role><lat>-24.0621</lat><lon>-46.9986</lon></server>
+  <server><name>GUA-02</name><ip>170.238.88.227</ip><role>DNS</role><lat>14.6349</lat><lon>-90.5069</lon></server>
+  <server><name>LIM-02</name><ip>186.125.54.55</ip><role>DNS</role><lat>-12.0464</lat><lon>-77.0428</lon></server>
+  <server><name>BSB-02</name><ip>177.141.236.239</ip><role>DNS</role><lat>-15.7801</lat><lon>-47.9292</lon></server>
+  <server><name>FOR-02</name><ip>170.80.176.106</ip><role>DNS</role><lat>-9.4438</lat><lon>-35.2720</lon></server>
+  <server><name>SSA-02</name><ip>177.70.72.75</ip><role>DNS</role><lat>-12.9716</lat><lon>-38.5016</lon></server>
+  <server><name>REC-02</name><ip>179.227.10.73</ip><role>DNS</role><lat>-8.0476</lat><lon>-34.8770</lon></server>
+  <server><name>BEL-02</name><ip>213.248.127.166</ip><role>DNS</role><lat>54.5260</lat><lon>105.3188</lon></server>
+  <server><name>UFA-02</name><ip>193.187.33.11</ip><role>DNS</role><lat>54.7388</lat><lon>55.9673</lon></server>
+  <server><name>TAH-02</name><ip>213.234.180.251</ip><role>DNS</role><lat>-21.9355</lat><lon>-70.2410</lon></server>
+  <server><name>ADD-02</name><ip>41.3211</ip><role>DNS</role><lat>65.0120</lat><lon>25.8481</lon></server>
+  <server><name>BGO-02</name><ip>194.35.233.213</ip><role>DNS</role><lat>60.3923</lat><lon>5.3242</lon></server>
+  <server><name>Fake-NY</name><ip>10.255.255.1</ip><role>Test Offline</role><lat>40.7306</lat><lon>-73.9352</lon></server>
+  <server><name>Fake-LA</name><ip>10.255.255.2</ip><role>Test Offline</role><lat>34.0407</lat><lon>-118.2468</lon></server>
+  <server><name>Fake-LDN</name><ip>10.255.255.3</ip><role>Test Offline</role><lat>51.5155</lat><lon>-0.0922</lon></server>
+  <server><name>Fake-TKY</name><ip>10.255.255.4</ip><role>Test Offline</role><lat>35.6897</lat><lon>139.6922</lon></server>
+  <server><name>Fake-SYD</name><ip>10.255.255.5</ip><role>Test Offline</role><lat>-33.8700</lat><lon>151.2100</lon></server>
+  <server><name>Fake-RIO</name><ip>10.255.255.6</ip><role>Test Offline</role><lat>-22.9083</lat><lon>-43.1964</lon></server>
+  <server><name>Fake-JHB</name><ip>10.255.255.7</ip><role>Test Offline</role><lat>-26.2050</lat><lon>28.0480</lon></server>
+</servers>

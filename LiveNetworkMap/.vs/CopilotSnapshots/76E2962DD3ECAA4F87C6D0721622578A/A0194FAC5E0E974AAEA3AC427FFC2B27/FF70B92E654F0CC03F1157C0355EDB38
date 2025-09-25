@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<servers>
+	<server>
+		<name>PHX-DC01</name>
+		<ip>8.8.8.8</ip>
+		<role>Domain Controller</role>
+		<lat>33.4484</lat>
+		<lon>-112.0740</lon>
+	</server>
+	<server>
+		<name>ASH-WEB01</name>
+		<ip>1.1.1.1</ip>
+		<role>IIS Web Server</role>
+		<lat>39.0438</lat>
+		<lon>-77.4874</lon>
+	</server>
+	<server>
+		<name>Google DNS</name>
+		<ip>8.8.8.8</ip>
+		<role>Public DNS</role>
+		<lat>37.3861</lat>
+		<lon>-122.0839</lon>
+	</server>
+	<server>
+		<name>Cloudflare DNS</name>
+		<ip>1.1.1.1</ip>
+		<role>Public DNS</role>
+		<lat>37.7749</lat>
+		<lon>-122.4194</lon>
+	</server>
+	<server>
+		<name>OpenDNS</name>
+		<ip>208.67.222.222</ip>
+		<role>Public DNS</role>
+		<lat>37.7924</lat>
+		<lon>-122.3964</lon>
+	</server>
+	<server>
+		<name>Fake Server</name>
+		<ip>10.255.255.1</ip>
+		<role>Test Offline</role>
+		<lat>40.7128</lat>
+		<lon>-74.0060</lon>
+	</server>
+  
+  <!-- Online servers: 100, distributed across major US cities -->
+  <server><name>NYC-01</name><ip>8.8.8.8</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-02</name><ip>8.8.4.4</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-03</name><ip>1.1.1.1</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-04</name><ip>1.0.0.1</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-05</name><ip>208.67.222.222</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-06</name><ip>208.67.220.220</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-07</name><ip>9.9.9.9</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-08</name><ip>149.112.112.112</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-09</name><ip>64.6.64.6</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>NYC-10</name><ip>64.6.65.6</ip><role>DNS</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+
+  <server><name>LA-01</name><ip>8.26.56.26</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-02</name><ip>8.20.247.20</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-03</name><ip>156.154.70.1</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-04</name><ip>156.154.71.1</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-05</name><ip>198.101.242.72</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-06</name><ip>198.101.242.73</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-07</name><ip>8.8.8.8</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-08</name><ip>8.8.4.4</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-09</name><ip>1.1.1.1</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>LA-10</name><ip>1.0.0.1</ip><role>DNS</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+
+  <server><name>CHI-01</name><ip>8.8.8.8</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-02</name><ip>8.8.4.4</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-03</name><ip>1.1.1.1</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-04</name><ip>1.0.0.1</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-05</name><ip>208.67.222.222</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-06</name><ip>208.67.220.220</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-07</name><ip>9.9.9.9</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-08</name><ip>149.112.112.112</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-09</name><ip>64.6.64.6</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>CHI-10</name><ip>64.6.65.6</ip><role>DNS</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+
+  <server><name>DAL-01</name><ip>8.26.56.26</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-02</name><ip>8.20.247.20</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-03</name><ip>156.154.70.1</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-04</name><ip>156.154.71.1</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-05</name><ip>198.101.242.72</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-06</name><ip>198.101.242.73</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-07</name><ip>8.8.8.8</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-08</name><ip>8.8.4.4</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-09</name><ip>1.1.1.1</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+  <server><name>DAL-10</name><ip>1.0.0.1</ip><role>DNS</role><lat>32.7767</lat><lon>-96.7970</lon></server>
+
+  <server><name>ATL-01</name><ip>8.8.8.8</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-02</name><ip>8.8.4.4</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-03</name><ip>1.1.1.1</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-04</name><ip>1.0.0.1</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-05</name><ip>208.67.222.222</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-06</name><ip>208.67.220.220</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-07</name><ip>9.9.9.9</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-08</name><ip>149.112.112.112</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-09</name><ip>64.6.64.6</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+  <server><name>ATL-10</name><ip>64.6.65.6</ip><role>DNS</role><lat>33.7490</lat><lon>-84.3880</lon></server>
+
+  <server><name>SEA-01</name><ip>8.26.56.26</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-02</name><ip>8.20.247.20</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-03</name><ip>156.154.70.1</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-04</name><ip>156.154.71.1</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-05</name><ip>198.101.242.72</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-06</name><ip>198.101.242.73</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-07</name><ip>8.8.8.8</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-08</name><ip>8.8.4.4</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-09</name><ip>1.1.1.1</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+  <server><name>SEA-10</name><ip>1.0.0.1</ip><role>DNS</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+
+  <!-- Offline servers: 4, distributed across the US -->
+  <server><name>Fake-NY</name><ip>10.255.255.1</ip><role>Test Offline</role><lat>40.7128</lat><lon>-74.0060</lon></server>
+  <server><name>Fake-LA</name><ip>10.255.255.2</ip><role>Test Offline</role><lat>34.0522</lat><lon>-118.2437</lon></server>
+  <server><name>Fake-CHI</name><ip>10.255.255.3</ip><role>Test Offline</role><lat>41.8781</lat><lon>-87.6298</lon></server>
+  <server><name>Fake-SEA</name><ip>10.255.255.4</ip><role>Test Offline</role><lat>47.6062</lat><lon>-122.3321</lon></server>
+</servers>

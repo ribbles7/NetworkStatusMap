@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<servers>
+	<server>
+		<name>PHX-DC01</name>
+		<ip>10.0.1.5</ip>
+		<role>Domain Controller</role>
+		<lat>33.4484</lat>
+		<lon>-112.0740</lon>
+	</server>
+	<server>
+		<name>ASH-WEB01</name>
+		<ip>10.0.2.10</ip>
+		<role>IIS Web Server</role>
+		<lat>39.0438</lat>
+		<lon>-77.4874</lon>
+	</server>
+	<server>
+		<name>Google DNS</name>
+		<ip>8.8.8.8</ip>
+		<role>Public DNS</role>
+		<lat>37.3861</lat>
+		<lon>-122.0839</lon>
+	</server>
+	<server>
+		<name>Cloudflare DNS</name>
+		<ip>1.1.1.1</ip>
+		<role>Public DNS</role>
+		<lat>37.7749</lat>
+		<lon>-122.4194</lon>
+	</server>
+	<server>
+		<name>OpenDNS</name>
+		<ip>208.67.222.222</ip>
+		<role>Public DNS</role>
+		<lat>37.7924</lat>
+		<lon>-122.3964</lon>
+	</server>
+	<server>
+		<name>Fake Server 1</name>
+		<ip>10.255.255.1</ip>
+		<role>Test Offline</role>
+		<lat>40.7128</lat>
+		<lon>-74.0060</lon>
+	</server>
+	<server>
+		<name>Fake Server 2</name>
+		<ip>192.0.2.123</ip>
+		<role>Test Offline</role>
+		<lat>34.0522</lat>
+		<lon>-118.2437</lon>
+	</server>
+</servers>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<servers>
+	<server>
+		<name>PHX-DC01</name>
+		<ip>10.0.1.5</ip>
+		<role>Domain Controller</role>
+		<lat>33.4484</lat>
+		<lon>-112.0740</lon>
+	</server>
+	<server>
+		<name>ASH-WEB01</name>
+		<ip>10.0.2.10</ip>
+		<role>IIS Web Server</role>
+		<lat>39.0438</lat>
+		<lon>-77.4874</lon>
+	</server>
+</servers>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<servers>
+	<server>
+		<name>PHX-01</name>
+		<ip>8.8.8.8</ip>
+		<role>DNS Resolver</role>
+		<lat>33.4484</lat>
+		<lon>-112.0740</lon>
+	</server>
+	<server>
+		<name>LAX-01</name>
+		<ip>1.1.1.1</ip>
+		<role>CDN Edge Node</role>
+		<lat>34.0522</lat>
+		<lon>-118.2437</lon>
+	</server>
+	<server>
+		<name>SEA-01</name>
+		<ip>208.67.222.222</ip>
+		<role>Web Server (IIS)</role>
+		<lat>47.6062</lat>
+		<lon>-122.3321</lon>
+	</server>
+	<server>
+		<name>DEN-01</name>
+		<ip>4.2.2.2</ip>
+		<role>VoIP Server</role>
+		<lat>39.7392</lat>
+		<lon>-104.9903</lon>
+	</server>
+	<server>
+		<name>DFW-01</name>
+		<ip>9.9.9.9</ip>
+		<role>Database (SQL)</role>
+		<lat>32.7767</lat>
+		<lon>-96.7970</lon>
+	</server>
+	<server>
+		<name>ORD-01</name>
+		<ip>1.0.0.1</ip>
+		<role>API Gateway</role>
+		<lat>41.8781</lat>
+		<lon>-87.6298</lon>
+	</server>
+	<server>
+		<name>ATL-01</name>
+		<ip>199.7.100.100</ip>
+		<role>Load Balancer</role>
+		<lat>33.7490</lat>
+		<lon>-84.3880</lon>
+	</server>
+	<server>
+		<name>MIA-01</name>
+		<ip>8.8.4.4</ip>
+		<role>Proxy Server</role>
+		<lat>25.7617</lat>
+		<lon>-80.1918</lon>
+	</server>
+	<server>
+		<name>IAD-01</name>
+		<ip>208.67.220.220</ip>
+		<role>Mail Server (Exchange)</role>
+		<lat>38.9445</lat>
+		<lon>-77.4558</lon>
+	</server>
+	<server>
+		<name>JFK-01</name>
+		<ip>64.233.187.99</ip>
+		<role>Storage (SAN)</role>
+		<lat>40.6413</lat>
+		<lon>-73.7781</lon>
+	</server>
+	<server>
+		<name>BOS-01</name>
+		<ip>18.246.103.102</ip>
+		<role>Firewall</role>
+		<lat>42.3601</lat>
+		<lon>-71.0589</lon>
+	</server>
+	<server>
+		<name>SFO-01</name>
+		<ip>13.52.221.23</ip>
+		<role>Web Server (Nginx)</role>
+		<lat>37.7749</lat>
+		<lon>-122.4194</lon>
+	</server>
+	<server>
+		<name>LAS-01</name>
+		<ip>209.244.0.3</ip>
+		<role>Cache Server</role>
+		<lat>36.1699</lat>
+		<lon>-115.1398</lon>
+	</server>
+	<server>
+		<name>SLC-01</name>
+		<ip>149.112.112.112</ip>
+		<role>Database (PostgreSQL)</role>
+		<lat>40.7608</lat>
+		<lon>-111.8910</lon>
+	</server>
+	<server>
+		<name>MSP-01</name>
+		<ip>75.75.75.75</ip>
+		<role>VPN Concentrator</role>
+		<lat>44.9778</lat>
+		<lon>-93.2650</lon>
+	</server>
+	<server>
+		<name>STL-01</name>
+		<ip>63.243.224.224</ip>
+		<role>API Gateway</role>
+		<lat>38.6270</lat>
+		<lon>-90.1994</lon>
+	</server>
+	<server>
+		<name>CLT-01</name>
+		<ip>199.85.126.10</ip>
+		<role>Web Server (Apache)</role>
+		<lat>35.2271</lat>
+		<lon>-80.8431</lon>
+	</server>
+	<server>
+		<name>BNA-01</name>
+		<ip>3.20.147.20</ip>
+		<role>Load Balancer</role>
+		<lat>36.1627</lat>
+		<lon>-86.7816</lon>
+	</server>
+	<server>
+		<name>PDX-01</name>
+		<ip>35.190.0.1</ip>
+		<role>Database (MySQL)</role>
+		<lat>45.5051</lat>
+		<lon>-122.6750</lon>
+	</server>
+	<server>
+		<name>HOU-01</name>
+		<ip>104.154.0.1</ip>
+		<role>Storage (NAS)</role>
+		<lat>29.7604</lat>
+		<lon>-95.3698</lon>
+	</server>
+	<server>
+		<name>ANC-01</name>
+		<ip>10.10.10.1</ip>
+		<role>Offline Mail (SMTP)</role>
+		<lat>61.2181</lat>
+		<lon>-149.9003</lon>
+	</server>
+	<server>
+		<name>HNL-01</name>
+		<ip>10.10.10.2</ip>
+		<role>Offline Proxy</role>
+		<lat>21.3069</lat>
+		<lon>-157.8583</lon>
+	</server>
+</servers>
